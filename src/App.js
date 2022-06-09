@@ -5,6 +5,7 @@ import Greet from './Components/Greet';
 import Counter from './Components/Counter';
 import FunctionClick from './Components/FunctionClick';
 import ClassClick from './Components/ClassClick';
+import EventBind from './Components/EventBind';
 
 
 class App extends Component{
@@ -13,8 +14,9 @@ class App extends Component{
       <div className='App'>
         {/* <Counter/> */}
         {/* <Greet/> */}
-        <FunctionClick/>
-        <ClassClick/>
+        {/* <FunctionClick/>
+        <ClassClick/> */}
+        <EventBind/>
       </div>
     )
   }
