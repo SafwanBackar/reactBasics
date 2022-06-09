@@ -6,6 +6,7 @@ import Counter from './Components/Counter';
 import FunctionClick from './Components/FunctionClick';
 import ClassClick from './Components/ClassClick';
 import EventBind from './Components/EventBind';
+import ParentComponent from './Components/ParentComponent';
 
 
 class App extends Component{
@@ -16,7 +17,8 @@ class App extends Component{
         {/* <Greet/> */}
         {/* <FunctionClick/>
         <ClassClick/> */}
-        <EventBind/>
+        {/* <EventBind/> */}
+        <ParentComponent/>
       </div>
     )
   }
